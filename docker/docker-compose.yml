@@ -4,9 +4,9 @@ services:
   db:
     image: postgres
     environment:
-      POSTGRES_USER: ponto_digital
-      POSTGRES_PASSWORD: 12345
-      POSTGRES_DB: ponto_digital_db
+      POSTGRES_USER: pontodb
+      POSTGRES_PASSWORD: pontodb
+      POSTGRES_DB: pontodb
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
     ports:

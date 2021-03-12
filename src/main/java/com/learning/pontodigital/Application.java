@@ -1,4 +1,4 @@
-package com.learning.pontodigital.hello;
+package com.learning.pontodigital;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
