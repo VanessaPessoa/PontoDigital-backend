@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: pontoDigital
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pontodb
+    username: pontodb
+    password: pontodb
