@@ -1,5 +1,7 @@
 package com.learning.pontodigital.domain;
 
+import com.learning.pontodigital.models.Hora;
+
 import java.util.List;
 
 public interface CrudAbstract<Model,DTOAdapter> {

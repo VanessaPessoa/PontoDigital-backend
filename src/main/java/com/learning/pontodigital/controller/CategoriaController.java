@@ -57,8 +57,4 @@ public class CategoriaController {
         return new ResponseEntity<>(update, HttpStatus.OK);
 
     }
-
-
-
-
 }
